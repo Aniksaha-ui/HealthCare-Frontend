@@ -1,11 +1,15 @@
+import HeroSection from '@/component/UI/HomePage/HeroSection/HeroSection'
+import Specialist from "@/component/UI/HomePage/Specialist/Specialist";
+
 import { Button } from '@mui/material'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div>
-      <h3>Hello World</h3>
-      <Button variant="contained">Text</Button>
+      <HeroSection></HeroSection>
+         <Specialist />
+
     </div>
   )
 }
